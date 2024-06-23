@@ -1,0 +1,14 @@
+{
+    "US": [
+        { "title": "Song 1", "artist": "Artist 1" },
+        // más canciones...
+    ],
+    "MX": [
+        { "title": "Song 1", "artist": "Artist 1" },
+        // más canciones...
+    ]
+    // más países...
+}
+
+//En data.json (opcional si decides cargar datos de un archivo):
+

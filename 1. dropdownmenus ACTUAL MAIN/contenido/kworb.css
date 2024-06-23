@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.iframe-container {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    border: none;
+    padding: 0;
+}
+
+
+
+@media (min-width: 1024px) {
+    iframe {
+        height: 80vh; /* Adjust as needed */
+        
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    iframe {
+        height: 70vh; /* Adjust as needed */
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    iframe {
+        height: 60vh; /* Adjust as needed */
+    }
+
+    .title {
+        margin-top: 20px;
+        text-align: center;
+        font-family: futura-bold;
+    
+    }
+}
+
+@media (max-width: 480px) {
+    iframe {
+        height: 50vh; /* Adjust as needed */
+    }
+    .title {
+        margin-top: 20px;
+        text-align: center;
+        font-family: futura-bold;
+    
+    }
+}
+
+p {
+    text-align: center;
+    font-size: 10px;
+}

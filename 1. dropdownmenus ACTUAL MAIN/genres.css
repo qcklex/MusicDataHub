@@ -1,0 +1,185 @@
+body {
+    font-family: Helvetica-bold;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.menu {
+    padding: 20px;
+}
+
+
+h2 {
+    margin-top: 120px;
+    font-size: 50px;
+    font-family: Helvetica-bold;
+}
+.menu-label {
+    position: absolute;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    z-index: 0;
+}
+
+.right-menu .menu-label {
+    bottom: 600;
+    position: fixed;
+    right: 0;
+}
+
+.left-menu .menu-label {
+    bottom: 900px;
+    position: fixed;
+    left: 0;
+}
+
+.right-menu .menu-content {
+    padding-right: 10px;
+    text-align: right;
+}
+
+.left-menu .menu-content {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.menu-content a {
+    padding: 5px 10px;
+    text-decoration: none;
+    display: inline;
+    color: rgba(84, 82, 82, 0.697);
+    transition: 0.5s;
+}
+
+.menu-content a:hover {
+    color: rgba(84, 82, 82, 0);
+}
+.menu-content .submenu-toggle {
+    font-size: 45px;
+}
+
+.submenu-toggle:hover {
+    color: #fff7f7;
+    background-color:rgba(245, 245, 245, 0.045);
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+}
+.submenu-toggle {
+    position: relative;
+    color: #070303;
+    font-size: 20px;
+}
+
+.submenu {
+    display: none;
+    padding-left: 10px;
+    background-color: rgba(68, 68, 68, 0.0);
+    font-size: 30px;
+    font-family: helvetica-bold;
+}
+
+.right-menu .submenu {
+    position: inherit;
+    right: 700px;
+    top: 0;
+}
+
+.left-menu .submenu {
+    position: inherit;
+    left: 400px;
+    top: 0;
+    column-count: 6;
+    column-width: 100px;
+    row-gap: 10px;
+}
+
+.right-menu {
+    right: -210px;
+    top: 370px;
+}
+
+.submenu-toggle:hover .submenu {
+    display: block;
+    font-size: f; /* Adjusted font size for submenu on hover */
+    
+    
+}
+
+h2 {
+    padding: 10px;
+}
+
+/* Responsive design for Desktops */
+@media screen and (min-width: 769px) {
+    .menu-label {
+        visibility: visible;
+    }
+}
+
+/* Responsive design for Smartphones */
+@media only screen and (max-width: 768px) {
+
+
+.title {
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1;
+}
+
+    .menu-label {
+        display: none;
+    }
+
+    .right-menu, .left-menu {
+        position: static;
+        top: auto;
+        right: auto;
+        left: auto;
+        bottom: auto;
+        width: auto;
+        padding: 0;
+        text-align: left;
+    }
+
+    .right-menu .menu-content, .left-menu .menu-content {
+        padding: 0; 
+        max-height: calc(100vh - 100px);
+        overflow-y: auto;
+    }
+
+    .menu-content a {
+        display: block;
+    }
+
+    .right-menu .submenu, .left-menu .submenu {
+        position: static;
+        top: auto;
+        left: auto;
+        right: auto;
+        padding-left: 0;
+        font-size: 30px; /* Adjust font size for smaller screens */
+        column-count: 1; /* Ensure single column layout on small screens */
+    }
+
+    .navbar {
+    Z-index: 2;    }
+
+}
+
+/* Additional responsiveness for tablets and other mid-sized devices */
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+    .right-menu .submenu, .left-menu .submenu {
+        column-count: 2; /* Adjust the number of columns for mid-sized screens */
+        column-gap: 10px;
+    }
+
+    
+}
+
