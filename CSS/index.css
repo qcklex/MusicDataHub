@@ -1,0 +1,55 @@
+.dropend .dropdown-toggle {
+    margin-left: 1em;
+    background-color: #ffffff;
+    
+}
+
+
+
+.dropdown-menu .dropend {
+    background-color: white;
+}
+.dropdown:hover > .dropdown-menu,
+.dropend:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0.125em;
+    margin-left: 0.125em;
+    background-color: white;
+}
+@media screen and (min-width: 769px) {
+    .dropend:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      left: 100%;
+            background-color: rgb(255, 255, 255);
+
+    }
+    .dropend .dropdown-toggle {
+      margin-left: 0.5em;
+      
+    }
+}
+
+
+.section {
+    display: block;
+   color: black;
+   font-size: futura;
+}
+
+
+/* Dropdown menu styling */
+.dropdown-toggle .dropdown-menu {
+    background-color: #ffffff; /* Light background for dropdown */
+    transition: background-color 0.3s ease;
+}
+
+/* Change background color on hover */
+.dropdown-menu a:hover {
+    background-color: #ffffff; /* New background color */
+    
+}
+
+.nav-item  {
+    background-color: #3834342f;
+}

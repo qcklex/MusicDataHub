@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">MusicDataHub</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+    <link rel="stylesheet" href="CSS/styles.css" type="text/css">
+    <link rel="stylesheet" href="CSS/index.css" type="text/css">
+    <link rel="stylesheet" href="CSS/premiumaccounts.css" type="text/css">  <!-- CSS file -->
+  <!-- CSS file -->
+  <!-- JS file -->
+  <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/gh/StephanWagner/svgMap@v2.7.2/dist/svgMap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="1.index.html">MusicDataHub
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownUsers" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              SPOTIFY - USERS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownUsers">
+              <li><a class="dropdown-item" href="2.1usersartists.html">ARTISTS</a></li>
+              <li><a class="dropdown-item" href="2.2users-listeners.html">LISTENERS</a></li>
+              <li><a class="dropdown-item" href="2.3premiumaccounts.html">PREMIUM ACCOUNT COST BY COUNTRY</a></li>
+
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="3.1.consumptionhabitsartists.html" id="navbarDropdownConsumption" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MUSIC STREAMING - CONSUMPTION HABITS
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownConsumption">
+              <li><a class="dropdown-item" href="3.1.consumptionhabitsartists.html">MOST LISTENED ARTISTS</a></li>
+              <li><a class="dropdown-item" href="3.2.genres.html">MOST LISTENED SONGS AND ALBUMS BY GENRE - BILLBOARD CHARTS</a></li>
+              <li><a class="dropdown-item" href="3.3.datagraphs.html">DATA GRAPHS</a></li>
+
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownContent" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              THE BEST OF THE MOMENT & DATA
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownContent">
+              <li><a class="dropdown-item" href="4.1mostlistened.html">LAST HOUR CHARTS AND MORE
+              </a></li>
+              <li><a class="dropdown-item" href="4.2.billboardlistsmapamundi.html">TOP 100 SONGS - BY COUNTRY - MAP</a></li>
+
+              <li><a class="dropdown-item" href="4.3.datagraphs.html">DATA GRAPHS</a></li>
+
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="5.company.html" id="navbarDropdownCompany" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              MUSIC STREAMING COMPANIES ECONOMIC DATA & MORE
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="5.1.financials.html">
+                    FINANCIALS
+                </a>
+              </li>
+              <li><hr class="dropdown-divider"></li>
+              <li class="nav-item dropend">
+                <a class="dropdown-item dropdown-toggle" data-bs-toggle="dropdown" href="5.2.overview.html" id="navbarDropdownOverview" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  OVERVIEW </a>
+                  <ul class="dropdown-menu" >
+                    <li><a class="dropdown-item" href="5.2.1.revenue.html">REVENUE</a></li>
+                    <li><a class="dropdown-item" href="5.2.2.subscribers.html">SUBSCRIBERS</a></li>
+                  </ul>
+              </li>
+
+
+            </ul>
+          </li>
+
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle"  id="navbarDropdownBenchmarks" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              BENCHMARKS & COMPETITORS IN THE INDUSTRY
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownBenchmarks">
+              <li class="dropdown-submenu">
+                <a class="dropdown-item" tabindex="-1" href="6.benchmarks.html">INFOGRAPHS <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a tabindex="-1" href="#">LARGEST MEDIA COMPANIES WORLD WIDE 2022</a></li>
+                  <li><a tabindex="-1" href="#">NUMBER OF ACTIVE SUBSCRIBERS OF ONLINE MUSIC SERVICES</a></li>
+                  <li><a tabindex="-1" href="#">- [SUBSCRIBER SHARE OF MUSIC STREAMING SERVICES WORLDWIDE Q3 2023</a></li>
+                  <li><a tabindex="-1" href="#">SHARE OF WMG REVENUE GENERATED BY APPLE AND SPOTIFY 2017-2023</a></li>
+                  <li><a tabindex="-1" href="#">TENCENT MUSICS ANNUAL REVENUE 2016-2023</a></li>
+                  <li><a tabindex="-1" href="#">PANDORA'S ANNUAL REVENUE 2019-2023</a></li>
+
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- NAV-->
+<h1 class="title">TOP 100 SONGS - BY COUNTRY - MAP </h1>
+
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-12">
+      <input class="form-control cent" id="countrySearch" type="text" placeholder="Search for a country...">
+      <button class="btn btn-primary mt-2 centered" id="searchButton">Search</button>
+      <ul class="list-group mt-2" id="countryList"></ul>
+    </div>
+  </div>
+</div>
+
+<div id="svgMap" class="mt-4"></div>
+
+<script>
+  // Initialize svgMap
+  new svgMap({
+    targetElementID: 'svgMap',
+    minZoom: 1,
+    maxZoom: 25,
+    initialZoom: 1.06,
+    initialPan: { x: 0, y: 0 },
+    zoomScaleSensitivity: 0.2,
+    mouseWheelZoomEnabled: true,
+    mouseWheelZoomWithKey: false,
+    mouseWheelKeyMessage: 'Press the [ALT] key to zoom',
+    mouseWheelKeyMessageMac: 'Press the [COMMAND] key to zoom',
+    colorMax: '#CC0033',
+    colorMin: '#FFE5D9',
+    colorNoData: '#E2E2E2',
+    flagType: 'image',
+    flagURL: 'https://cdn.jsdelivr.net/gh/hjnilsson/country-flags@latest/svg/{0}.svg',
+    hideFlag: false,
+    noDataText: 'No data available',
+    touchLink: true,
+    data: {
+      data: {
+        Top100songsBillboard: {
+          name: 'Top 100 songs Billboard',
+          format: '{100}',
+        }
+      },
+      applyData: 'Top100songsBillboard',
+      values: {
+        BE: { link: 'https://www.billboard.com/charts/belgium-songs-hotw/', linkTarget: '_blank' },
+        HR: { link: 'https://www.billboard.com/charts/croatia-songs-hotw/', linkTarget: '_blank' },
+        CZ: { link: 'https://www.billboard.com/charts/czech-republic-songs-hotw/', linkTarget: '_blank' },
+        DK: { link: 'https://www.billboard.com/charts/denmark-songs-hotw/', linkTarget: '_blank' },
+        FI: { link: 'https://www.billboard.com/charts/finland-songs-hotw/', linkTarget: '_blank' },
+        FR: { link: 'https://www.billboard.com/charts/france-songs-hotw/', linkTarget: '_blank' },
+        DE: { link: 'https://www.billboard.com/charts/germany-songs-hotw/', linkTarget: '_blank' },
+        GR: { link: 'https://www.billboard.com/charts/greece-songs-hotw/', linkTarget: '_blank' },
+        HU: { link: 'https://www.billboard.com/charts/hungary-songs-hotw/', linkTarget: '_blank' },
+        IS: { link: 'https://www.billboard.com/charts/iceland-songs-hotw/', linkTarget: '_blank' },
+        IE: { link: 'https://www.billboard.com/charts/ireland-songs-hotw/', linkTarget: '_blank' },
+        NL: { link: 'https://www.billboard.com/charts/netherlands-songs-hotw/', linkTarget: '_blank' },
+        NO: { link: 'https://www.billboard.com/charts/norway-songs-hotw/', linkTarget: '_blank' },
+        PL: { link: 'https://www.billboard.com/charts/poland-songs-hotw/', linkTarget: '_blank' },
+        PT: { link: 'https://www.billboard.com/charts/portugal-songs-hotw/', linkTarget: '_blank' },
+        RO: { link: 'https://www.billboard.com/charts/romania-songs-hotw/', linkTarget: '_blank' },
+        SK: { link: 'https://www.billboard.com/charts/slovakia-songs-hotw/', linkTarget: '_blank' },
+        ES: { link: 'https://www.billboard.com/charts/spain-songs-hotw/', linkTarget: '_blank' },
+        IT: { link: 'https://www.billboard.com/charts/billboard-italy-hot-100/', linkTarget: '_blank' },
+        SE: { link: 'https://www.billboard.com/charts/sweden-songs-hotw/', linkTarget: '_blank' },
+        CH: { link: 'https://www.billboard.com/charts/switzerland-songs-hotw/', linkTarget: '_blank' },
+        GB: { link: 'https://www.billboard.com/charts/official-uk-songs/', linkTarget: '_blank' },
+        // Africa
+        ZA: { link: 'https://www.billboard.com/charts/south-africa-songs-hotw/', linkTarget: '_blank' },
+        // Asia-Pacific
+        AU: { link: 'https://www.billboard.com/charts/australia-songs-hotw/', linkTarget: '_blank' },
+        HK: { link: 'https://www.billboard.com/charts/hong-kong-songs-hotw/', linkTarget: '_blank' },
+        IN: { link: 'https://www.billboard.com/charts/india-songs-hotw/', linkTarget: '_blank' },
+        ID: { link: 'https://www.billboard.com/charts/indonesia-songs-hotw/', linkTarget: '_blank' },
+        MY: { link: 'https://www.billboard.com/charts/malaysia-songs-hotw/', linkTarget: '_blank' },
+        NZ: { link: 'https://www.billboard.com/charts/new-zealand-songs-hotw/', linkTarget: '_blank' },
+        PH: { link: 'https://www.billboard.com/charts/philippines-songs-hotw/', linkTarget: '_blank' },
+        SG: { link: 'https://www.billboard.com/charts/singapore-songs-hotw/', linkTarget: '_blank' },
+        KR: { link: 'https://www.billboard.com/charts/south-korea-songs-hotw/', linkTarget: '_blank' },
+        // Latin America
+        BO: { link: 'https://www.billboard.com/charts/bolivia-songs-hotw/', linkTarget: '_blank' },
+        BR: { link: 'https://www.billboard.com/charts/brazil-songs-hotw/', linkTarget: '_blank' },
+        CL: { link: 'https://www.billboard.com/charts/chile-songs-hotw/', linkTarget: '_blank' },
+        CO: { link: 'https://www.billboard.com/charts/colombia-songs-hotw/', linkTarget: '_blank' },
+        EC: { link: 'https://www.billboard.com/charts/ecuador-songs-hotw/', linkTarget: '_blank' },
+        MX: { link: 'https://www.billboard.com/charts/mexico-songs-hotw/', linkTarget: '_blank' },
+        PE: { link: 'https://www.billboard.com/charts/peru-songs-hotw/', linkTarget: '_blank' },
+        // North Americaf
+        US: { link: 'https://www.billboard.com/charts/hot-100/', linkTarget: '_blank' },
+        CA: { link: 'https://www.billboard.com/charts/canadian-hot-100/', linkTarget: '_blank' },
+        // Additional countries
+        RU: { link: 'https://www.billboard.com/charts/russia-songs-hotw/', linkTarget: '_blank' },
+        CN: { link: 'https://www.billboard.com/charts/china-tme-uni-songs/', linkTarget: '_blank' },
+        JP: { link: 'https://www.billboard.com/charts/japan-hot-100/', linkTarget: '_blank' },
+        // Not found
+
+              // Add more country data here if needed
+            },
+
+            // Tooltip content format
+            tooltipContent: function(country, data) {
+              if (data && data.Top100songsBillboard) {
+                return '<div><strong>' + country + '</strong><br>' +
+                       'Top 100 songs: ' + data.Top100songsBillboard + '</div>';
+              } else {
+                return '<div><strong>' + country + '</strong><br>' +
+                       'Data not available</div>';
+              }
+            }
+          },
+
+          countries: {
+            EH: false, // Combine Western Sahara with Morocco
+            Crimea: 'RU' // Make Crimea part of Russia
+          },
+          countryNames: {
+            // Custom country names if needed
+          }
+        });
+
+  // Add click event listener to detect clicks on the ocean
+  document.getElementById('svgMap').addEventListener('click', function(event) {
+    const target = event.target;
+    if (target.tagName === 'svg' || target.classList.contains('svgMap-map')) {
+      window.location.href = 'https://www.billboard.com/charts/billboard-global-200/';
+    }
+  });
+
+  // Country search functionality
+  const countryData = {
+      BE: { name: 'Belgium', link: 'https://www.billboard.com/charts/belgium-songs-hotw/', linkTarget: '_blank' },
+      HR: { name: 'Croatia', link: 'https://www.billboard.com/charts/croatia-songs-hotw/', linkTarget: '_blank' },
+      CZ: { name: 'Czech Republic', link: 'https://www.billboard.com/charts/czech-republic-songs-hotw/', linkTarget: '_blank' },
+      DK: { name: 'Denmark', link: 'https://www.billboard.com/charts/denmark-songs-hotw/', linkTarget: '_blank' },
+      FI: { name: 'Finland', link: 'https://www.billboard.com/charts/finland-songs-hotw/', linkTarget: '_blank' },
+      FR: { name: 'France', link: 'https://www.billboard.com/charts/france-songs-hotw/', linkTarget: '_blank' },
+      DE: { name: 'Germany', link: 'https://www.billboard.com/charts/germany-songs-hotw/', linkTarget: '_blank' },
+      GR: { name: 'Greece', link: 'https://www.billboard.com/charts/greece-songs-hotw/', linkTarget: '_blank' },
+      HU: { name: 'Hungary', link: 'https://www.billboard.com/charts/hungary-songs-hotw/', linkTarget: '_blank' },
+      IS: { name: 'Iceland', link: 'https://www.billboard.com/charts/iceland-songs-hotw/', linkTarget: '_blank' },
+      IE: { name: 'Ireland', link: 'https://www.billboard.com/charts/ireland-songs-hotw/', linkTarget: '_blank' },
+      NL: { name: 'Netherlands', link: 'https://www.billboard.com/charts/netherlands-songs-hotw/', linkTarget: '_blank' },
+      NO: { name: 'Norway', link: 'https://www.billboard.com/charts/norway-songs-hotw/', linkTarget: '_blank' },
+      PL: { name: 'Poland', link: 'https://www.billboard.com/charts/poland-songs-hotw/', linkTarget: '_blank' },
+      PT: { name: 'Portugal', link: 'https://www.billboard.com/charts/portugal-songs-hotw/', linkTarget: '_blank' },
+      RO: { name: 'Romania', link: 'https://www.billboard.com/charts/romania-songs-hotw/', linkTarget: '_blank' },
+      SK: { name: 'Slovakia', link: 'https://www.billboard.com/charts/slovakia-songs-hotw/', linkTarget: '_blank' },
+      ES: { name: 'Spain', link: 'https://www.billboard.com/charts/spain-songs-hotw/', linkTarget: '_blank' },
+      IT: { name: 'Italy', link: 'https://www.billboard.com/charts/billboard-italy-hot-100/', linkTarget: '_blank' },
+      SE: { name: 'Sweden', link: 'https://www.billboard.com/charts/sweden-songs-hotw/', linkTarget: '_blank' },
+      CH: { name: 'Switzerland', link: 'https://www.billboard.com/charts/switzerland-songs-hotw/', linkTarget: '_blank' },
+      GB: { name: 'United Kingdom', link: 'https://www.billboard.com/charts/official-uk-songs/', linkTarget: '_blank' },
+      ZA: { name: 'South Africa', link: 'https://www.billboard.com/charts/south-africa-songs-hotw/', linkTarget: '_blank' },
+      AU: { name: 'Australia', link: 'https://www.billboard.com/charts/australia-songs-hotw/', linkTarget: '_blank' },
+      HK: { name: 'Hong Kong', link: 'https://www.billboard.com/charts/hong-kong-songs-hotw/', linkTarget: '_blank' },
+      IN: { name: 'India', link: 'https://www.billboard.com/charts/india-songs-hotw/', linkTarget: '_blank' },
+      ID: { name: 'Indonesia', link: 'https://www.billboard.com/charts/indonesia-songs-hotw/', linkTarget: '_blank' },
+      MY: { name: 'Malaysia', link: 'https://www.billboard.com/charts/malaysia-songs-hotw/', linkTarget: '_blank' },
+      NZ: { name: 'New Zealand', link: 'https://www.billboard.com/charts/new-zealand-songs-hotw/', linkTarget: '_blank' },
+      PH: { name: 'Philippines', link: 'https://www.billboard.com/charts/philippines-songs-hotw/', linkTarget: '_blank' },
+      SG: { name: 'Singapore', link: 'https://www.billboard.com/charts/singapore-songs-hotw/', linkTarget: '_blank' },
+      KR: { name: 'South Korea', link: 'https://www.billboard.com/charts/south-korea-songs-hotw/', linkTarget: '_blank' },
+      BO: { name: 'Bolivia', link: 'https://www.billboard.com/charts/bolivia-songs-hotw/', linkTarget: '_blank' },
+      BR: { name: 'Brazil', link: 'https://www.billboard.com/charts/brazil-songs-hotw/', linkTarget: '_blank' },
+      CL: { name: 'Chile', link: 'https://www.billboard.com/charts/chile-songs-hotw/', linkTarget: '_blank' },
+      CO: { name: 'Colombia', link: 'https://www.billboard.com/charts/colombia-songs-hotw/', linkTarget: '_blank' },
+      EC: { name: 'Ecuador', link: 'https://www.billboard.com/charts/ecuador-songs-hotw/', linkTarget: '_blank' },
+      MX: { name: 'Mexico', link: 'https://www.billboard.com/charts/mexico-songs-hotw/', linkTarget: '_blank' },
+      PE: { name: 'Peru', link: 'https://www.billboard.com/charts/peru-songs-hotw/', linkTarget: '_blank' },
+      US: { name: 'United States', link: 'https://www.billboard.com/charts/hot-100/', linkTarget: '_blank' },
+      CA: { name: 'Canada', link: 'https://www.billboard.com/charts/canadian-hot-100/', linkTarget: '_blank' },
+      RU: { name: 'Russia', link: 'https://www.billboard.com/charts/russia-songs-hotw/', linkTarget: '_blank' },
+      CN: { name: 'China', link:'https://www.billboard.com/charts/china-tme-uni-songs/', linkTarget: '_blank' },
+      JP: { name: 'Japan', link: 'https://www.billboard.com/charts/japan-hot-100/', linkTarget: '_blank' }
+    };
+
+    function generateCountryList() {
+      const countryList = document.getElementById('countryList');
+      countryList.innerHTML = '';
+
+      const searchInput = document.getElementById('countrySearch');
+      const searchTerm = searchInput.value.trim().toLowerCase();
+
+      // Filter the list of countries based on the search term
+      const filteredCountries = Object.entries(countryData)
+        .filter(([code, { name }]) => name.toLowerCase().includes(searchTerm) || code.toLowerCase().includes(searchTerm))
+        .slice(0, 4); // Limit to the first 4 matches
+
+      filteredCountries.forEach(([code, { name, link, linkTarget }]) => {
+        const li = document.createElement('li');
+        li.className = 'list-group-item';
+        const a = document.createElement('a');
+        a.href = link;
+        a.target = linkTarget;
+        a.textContent = name;
+        a.addEventListener('click', function(event) {
+          event.preventDefault();
+          searchInput.value = name; // Update the search input value with the selected country name
+          handleSearch(); // Trigger the search
+        });
+        li.appendChild(a);
+        countryList.appendChild(li);
+      });
+    }
+
+    // Function to handle search
+    function handleSearch() {
+      const searchInput = document.getElementById('countrySearch');
+      const searchTerm = searchInput.value.trim().toLowerCase();
+
+      const country = Object.entries(countryData).find(([code, { name }]) => name.toLowerCase() === searchTerm || code.toLowerCase() === searchTerm);
+      if (country) {
+        window.location.href = country[1].link;
+      } else {
+        alert('Country not found!');
+      }
+    }
+
+    // Attach event listener to input for generating predictive text
+    const searchInput = document.getElementById('countrySearch');
+    searchInput.addEventListener('input', generateCountryList);
+
+    // Attach click event listener to the country list
+    document.getElementById('countryList').addEventListener('click', function(event) {
+      if (event.target && event.target.nodeName === 'A') {
+        event.preventDefault(); // Prevent the default link behavior
+        handleSearch.call(event.target); // Call handleSearch with the clicked link as 'this'
+      }
+    });
+
+
+</script>
+<script src="JS/svgmap.js"></script>
+
+</body>
+<footer style="text-align: center;">
+  <p style="font-size: 10px;">&copy; 2024 MusicDataHub. Licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</p>
+</footer>
+
+</html>

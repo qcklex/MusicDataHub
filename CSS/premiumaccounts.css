@@ -1,0 +1,106 @@
+/* Container for zoomable image */
+.zoomable {
+  overflow: hidden;
+  width: 100%;
+  max-width: 1000px; /* Adjust as needed */
+  height: auto;
+  position: relative;
+}
+
+/* Image wrapper for zoom effect */
+.zoom-img {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.zoom-img img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.1s ease-out, transform-origin 0.1s ease-out;
+  transform-origin: center center;
+}
+
+.zoom-img img:hover {
+  transform: scale(2.4);
+}
+
+/* Specific class for the first image */
+.large-image {
+  width: 123%; /* Adjust size as needed */
+  margin: 0 auto;
+  display: block;
+}
+
+/* CSS styles for image alignment */
+.left-align, .right-align {
+  width: 150px; /* Fixed width for square-like appearance */
+  height: 150px; /* Fixed height for square-like appearance */
+  overflow: hidden;
+}
+
+.left-align {
+  float: left;
+  margin-right: 20px; /* Adjust margin as needed */
+}
+
+.right-align {
+  float: right;
+  margin-left: 20px; /* Adjust margin as needed */
+}
+
+/* Container and column layout */
+.columns {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.column {
+  flex: 0.45; /* Adjusted to make columns take equal space */
+  padding: 10px;
+  min-width: 300px;
+}
+
+.image-column img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.sub-title {
+  font-size: 1.5em;
+  margin: 20px 0 10px;
+}
+
+.sub-title2 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+}
+
+@media (max-width: 600px) {
+  .columns {
+      flex-direction: column;
+  }
+  img {
+      width: 100%; /* Images take full width on small screens */
+  }
+}
+
+@media (min-width: 601px) {
+  img {
+      width: 100%; /* Images take full width within their column */
+  }
+}
+
+img {
+  height: auto;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.columns::after {
+  content: "";
+  display: table;
+  clear: both;
+}
