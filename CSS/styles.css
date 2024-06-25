@@ -271,7 +271,7 @@ input[type="text"]:hover {
     }
 
     .graph img {
-        width: 100%; /* Adjust image size for very small screens */
+        width: 200%; /* Adjust image size for very small screens */
     }
 }
 
