@@ -261,7 +261,7 @@ input[type="text"]:hover {
     }
 
     .graph img {
-        width: 90%; /* Adjust image size for smaller screens */
+        width: 100%; /* Adjust image size for smaller screens */
     }
 }
 
@@ -271,13 +271,7 @@ input[type="text"]:hover {
     }
 
     .graph img {
-        width: 80%; /* Adjust image size for very small screens */
+        width: 100%; /* Adjust image size for very small screens */
     }
 }
 
-
-#vanta-bg {
-    position: relative;
-    width: 100%;
-    height: 100%;
-  }
