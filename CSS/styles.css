@@ -256,10 +256,14 @@ input[type="text"]:hover {
 
 @media (min-width: 576px) {
 
-    .img {
+    .html {
         max-width:540px;
     }
     
+    .img {
+        max-width:540px;
+    }
+
     .graph {
         padding: 2px; /* Further reduce padding for very small screens */
         max-width:540px;
@@ -277,6 +281,10 @@ input[type="text"]:hover {
 
 /* Responsive adjustments */
 @media (min-width: 768px) {
+
+    .html{
+        max-width:540px;
+    }
 
     .img {
         max-width:720px;
@@ -300,6 +308,10 @@ input[type="text"]:hover {
 
 @media (min-width: 992px) {
 
+    .html {
+        max-width:540px;
+    }
+
     .img {
         max-width:960px;
     }
@@ -309,6 +321,10 @@ input[type="text"]:hover {
 }
 
 @media (min-width: 1200px) {
+
+    .html {
+        max-width:540px;
+    }
 
     .img {
         max-width:1140px;
