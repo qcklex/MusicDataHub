@@ -254,23 +254,69 @@ input[type="text"]:hover {
     object-fit: contain; /* Ensure the image fits within its container */
 }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .graph {
-        padding: 5px; /* Adjust padding for smaller screens */
-    }
+@media (min-width: 576px) {
 
-    .graph img {
-        width: 100%; /* Adjust image size for smaller screens */
+    .img {
+        max-width:540px;
     }
-}
-
-@media (max-width: 576px) {
+    
     .graph {
         padding: 2px; /* Further reduce padding for very small screens */
+        max-width:540px;
+
     }
 
     .graph img {
         width: 250%; /* Adjust image size for very small screens */
+        max-width:540px;
+
+    }
+
+   
+}   
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+
+    .img {
+        max-width:720px;
+    }
+
+    .graph {
+        padding: 5px; /* Adjust padding for smaller screens */
+
+    }
+
+    .graph img {
+        width: 100%; /* Adjust image size for smaller screens */
+        max-width:720px;
+
+    }
+    
+  
+
+}
+
+
+@media (min-width: 992px) {
+
+    .img {
+        max-width:960px;
+    }
+    .graph {
+        max-width:960px;
     }
 }
+
+@media (min-width: 1200px) {
+
+    .img {
+        max-width:1140px;
+    }
+
+    .graph {
+        max-width:1140px;
+    }
+
+}
+
