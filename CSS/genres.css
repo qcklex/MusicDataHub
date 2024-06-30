@@ -10,7 +10,7 @@ body {
 
 h2 {
     margin-top: 120px;
-    font-size: 50px;
+    font-size: 45px;
     font-family: Helvetica-bold;
 }
 .menu-label {
@@ -74,7 +74,7 @@ h2 {
 .submenu-toggle {
     position: relative;
     color: #070303;
-    font-size: 20px;
+    font-size: 26px;
 }
 
 .submenu {
@@ -106,8 +106,8 @@ h2 {
 }
 
 .submenu-toggle:hover .submenu {
-    display: block;
-    font-size: f; /* Adjusted font size for submenu on hover */
+    display: inline-grid;
+    font-size: 25px; /* Adjusted font size for submenu on hover */
     
     
 }
