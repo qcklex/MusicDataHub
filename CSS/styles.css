@@ -40,17 +40,15 @@ html, body {
     padding-right: 15px;
 }
 
-.header {
-    color: #fff;
+header {
     width: 100%;
     height: 100%;
     margin-bottom: 2rem;
     padding: 2rem 1rem;
-    text-align: center;
 }
 
 .section {
-    padding: 0.5rem 2rem 1rem 2rem;
+    padding: 2rem 2rem rem 2rem;
     font-size: 20px;
 }
 
@@ -235,26 +233,63 @@ input[type="text"]:hover {
 }
 
 
-.graph {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; /* Center the content horizontally */
-    width: 100%; /* Use full width of the parent container */
-    height: auto; /* Allow height to adjust based on content */
-    overflow: hidden; /* Hide any overflow */
-    padding: 10px; /* Optional: Adds some padding */
-    box-sizing: border-box; /* Include padding and border in the total size */
-}
+/* Responsive adjustments imgs and maps */
 
-.graph img {
-    max-width: 60%; /* Ensure the image scales down with the container */
-    height: auto; /* Maintain the image's aspect ratio */
-    display: block; /* Prevent any unwanted space below the image */
-    object-fit: contain; /* Ensure the image fits within its container */
-}
+@media (min-width: 300px) {
+  
+    h1{
+        font-size: 24px;
+    }
+    
+    .maintitle{
+        font-size: 35px;
+    }
 
-@media (min-width: 576px) {
+    .sub-title{
+        font-size: 18px;
+    }
+
+    .content{
+        font-size: 16px;
+    }
+
+    .html {
+        max-width:370px;
+    }
+    
+    .img {
+        max-width:370px;
+    }
+
+
+    .section {
+        padding: 2rem 2rem 2rem 2rem;
+        font-size: 20px;
+        }
+}  
+
+@media (min-width: 400px) {
+
+    h1{
+        font-size: 30px;
+    }
+    
+       
+    .maintitle{
+        font-size: 35px;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+
+    .sub-title{
+        font-size: 24px;
+    }
+
+    .content{
+        font-size: 20px;
+    }
 
     .html {
         max-width:540px;
@@ -264,24 +299,39 @@ input[type="text"]:hover {
         max-width:540px;
     }
 
-    .graph {
-        padding: 2px; /* Further reduce padding for very small screens */
-        max-width:540px;
 
-    }
-
-    .graph img {
-        width: 250%; /* Adjust image size for very small screens */
-        max-width:540px;
-
-    }
-
-   
+    .section {
+        padding: 2rem 2rem 2rem 2rem;
+        font-size: 20px;
+        }
 }   
 
-/* Responsive adjustments */
 @media (min-width: 768px) {
 
+
+    h1{
+        font-size: 40px;
+    }
+   
+    
+    .title{
+        font-size: 48px;
+    }
+
+        
+    .maintitle{
+        font-size: 45px;
+    }
+    
+
+    .sub-title{
+        font-size: 36px;
+    }
+
+    .content{
+        font-size: 24px;
+    }
+    
     .html{
         max-width:720px;
     }
@@ -290,24 +340,36 @@ input[type="text"]:hover {
         max-width:720px;
     }
 
-    .graph {
-        padding: 5px; /* Adjust padding for smaller screens */
-
+    .section {
+    padding: 2rem 2rem 2rem 2rem;
+    font-size: 20px;
     }
-
-    .graph img {
-        width: 100%; /* Adjust image size for smaller screens */
-        max-width:720px;
-
-    }
-    
-  
-
 }
 
 
 @media (min-width: 992px) {
 
+    .h1{
+        font-size: 48px;
+    }
+    
+    .title{
+        font-size: 48px;
+    }
+
+       
+    .maintitle{
+        font-size: 53px;
+    }
+
+    .sub-title{
+        font-size: 36px;
+    }
+
+    .content{
+        font-size: 24px;
+    }
+
     .html {
         max-width:960px;
     }
@@ -315,13 +377,20 @@ input[type="text"]:hover {
     .img {
         max-width:960px;
     }
-    .graph {
-        max-width:960px;
-    }
+ 
+    
+    .section {
+        padding: 2rem 2rem 2rem 2rem;
+        font-size: 20px;
+        }
 }
 
 @media (min-width: 1200px) {
 
+    .maintitle{
+        font-size: 53px;
+    }
+
     .html {
         max-width:1140px;
     }
@@ -330,9 +399,89 @@ input[type="text"]:hover {
         max-width:1140px;
     }
 
-    .graph {
-        max-width:1140px;
-    }
+    
+    .section {
+        padding: 2rem 2rem 2rem 2rem;
+        font-size: 20px;
+        }
 
 }
 
+/* GRAPHS */
+
+@media (min-width: 400px) {
+
+    .graph {
+        padding: 2px; /* Further reduce padding for very small screens */
+        max-width: 540px;
+        padding-bottom: 100px;
+        padding-top: 100px;
+    }
+    
+       
+    
+
+}   
+
+@media (min-width: 768px) {
+  
+    .graph-bg {
+        overflow: hidden; /* Ensure content stays within the container */
+        text-align: center; /* Center the graph within the container */
+    }
+    
+    .graph {
+        max-width: 960px;
+        display: inline-block; /* Ensure it is centered within the container */
+        margin: 0 auto; /* Center the element horizontally */
+        transition: transform 0.3s; /* Smooth transition for scaling */
+        transform-origin: center; /* Ensure scaling from the center */
+        padding-bottom: 100px;
+        padding-top: 100px;
+
+        }
+    
+
+}
+
+@media (min-width: 992px) {
+
+    .graph-bg {
+        overflow: hidden; /* Ensure content stays within the container */
+        text-align: center; /* Center the graph within the container */
+    }
+
+    .graph {
+        max-width: 992px;
+        display: inline-block; /* Ensure it is centered within the container */
+        margin: 0 auto; /* Center the element horizontally */
+        transition: transform 0.3s; /* Smooth transition for scaling */
+        transform-origin: center; /* Ensure scaling from the center */
+        padding-bottom: 100px;
+        padding-top: 100px;
+
+        }
+    
+
+}
+
+@media (min-width: 1200px) {
+
+    .graph-bg {
+        overflow: hidden; /* Ensure content stays within the container */
+        text-align: center; /* Center the graph within the container */
+    }
+
+    .graph {
+        max-width: 1200px;
+        max-height: 1200px;
+        display: inline-block; /* Ensure it is centered within the container */
+        margin: 0 auto; /* Center the element horizontally */
+        transition: transform 0.3s; /* Smooth transition for scaling */
+        transform-origin: center; /* Ensure scaling from the center */
+        padding-bottom: 100px;
+        padding-top: 100px;
+
+        }
+
+}

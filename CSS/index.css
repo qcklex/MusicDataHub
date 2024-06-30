@@ -9,6 +9,7 @@
 .dropdown-menu .dropend {
     background-color: white;
 }
+
 .dropdown:hover > .dropdown-menu,
 .dropend:hover > .dropdown-menu {
     display: block;
@@ -16,6 +17,21 @@
     margin-left: 0.125em;
     background-color: white;
 }
+
+@media screen and (min-width: 400px) {
+    .dropend:hover > .dropdown-menu {
+      position: absolute;
+      top: 0;
+      left: 100%;
+            background-color: rgb(255, 255, 255);
+
+    }
+    .dropend .dropdown-toggle {
+      margin-left: 0.5em;
+      
+    }
+}
+
 @media screen and (min-width: 769px) {
     .dropend:hover > .dropdown-menu {
       position: absolute;
