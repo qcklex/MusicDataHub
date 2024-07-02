@@ -72,18 +72,17 @@ h2 {
     padding-bottom: 40px;
 }
 
-
-
 .right-menu .submenu-toggle:hover {
     position: relative;
     color: #070303;
-    right: -270px;    
-    
+}
 .submenu-toggle {
     position: relative;
     color: #070303;
     font-size: 26px;
+    
 }
+
 
 .submenu {
     display: none;
@@ -95,7 +94,7 @@ h2 {
 
 .right-menu .submenu {
     position: inherit;
-    right: 700px;
+    right: 1000px;
     top: 0;
 }
 
