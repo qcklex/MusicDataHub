@@ -71,6 +71,14 @@ h2 {
     padding-left: 20px;
     padding-bottom: 40px;
 }
+
+
+
+.right-menu .submenu-toggle:hover {
+    position: relative;
+    color: #070303;
+    right: -270px;    
+    
 .submenu-toggle {
     position: relative;
     color: #070303;
