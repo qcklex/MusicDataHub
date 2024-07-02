@@ -412,16 +412,21 @@ input[type="text"]:hover {
 
 @media (min-width: 400px) {
 
+      .graph-bg {
+        overflow: hidden; /* Ensure content stays within the container */
+        text-align: center; /* Center the graph within the container */
+    }
+    
     .graph {
-        padding: 2px; /* Further reduce padding for very small screens */
-        max-width: 540px;
+        max-width: 540;
+        display: inline-block; /* Ensure it is centered within the container */
+        margin: 0 auto; /* Center the element horizontally */
+        transition: transform 0.3s; /* Smooth transition for scaling */
+        transform-origin: center; /* Ensure scaling from the center */
         padding-bottom: 100px;
         padding-top: 100px;
     }
     
-       
-    
-
 }   
 
 @media (min-width: 768px) {
