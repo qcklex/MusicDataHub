@@ -1,4 +1,4 @@
-Music Data Hub
+Music Data Hub - https://musicdatahub.info/1.index.html
 
 Welcome to Music Data Hub, your ultimate destination for comprehensive music industry insights and data. 
 Navigate through our user-friendly sections with the top nav-bar to discover everything you need to know about the evolving world of music.
