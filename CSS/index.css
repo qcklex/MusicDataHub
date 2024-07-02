@@ -18,7 +18,7 @@
 
 @media screen and (min-width: 400px) {
     .dropend:hover > .dropdown-menu {
-      position: absolute;
+      position: grid;
       top: 0;
       left: 100%;
             background-color: rgb(255, 255, 255);
