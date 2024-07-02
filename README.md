@@ -52,7 +52,7 @@ Features
 Technologies Used
     
       Frontend: HTML, CSS, JavaScript
-      Libraries and Frameworks: Bootstrap, D3.js, Chart.js
+      Libraries and Frameworks: Bootstraps, svgMap
 
 
 Installation
@@ -163,12 +163,15 @@ Future Work
 
   Additional Data Sources: Integrate more music data sources for comprehensive analysis.
   Mobile Optimization: Optimize the application for mobile devices.
+  Improve graphs and information with these frameworks: D3.js, Chart.js
 
+ 
 
 Acknowledgments
 
   CS50 Course: This project was developed as part of the CS50 course.
   Music Data APIs and sources: Thanks to the various music data API providers and sources for their data and work.
+  SVG Maps: Thanks to @StephanWagner for the svgMaps library. https://github.com/StephanWagner/svgMap
 
 
 Contact
