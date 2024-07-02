@@ -94,58 +94,58 @@ File Structure
 
   Here's an overview of the file structure:
   
-  MusicDataHub/
-  │
-  ├── CSS/
-  │   ├── 100s.css
-  │   ├── 2.1usersartists.css
-  │   ├── 2.users-listeners.css
-  │   ├── 4.2.billboardlistsmapamundi.css
-  │   ├── datagraphs.css
-  │   ├── genres.css
-  │   ├── index.css
-  │   ├── kworb.css
-  │   ├── premiumaccounts.css
-  │   ├── styles.css
-  │   ├── usersartists.css
-  │
-  ├── JS/
-  │   ├── 100mapamundi.js
-  │   ├── bootstrap.bundle.min.js
-  │   ├── countryURLs.js
-  │   ├── genres.js
-  │   ├── graphs.js
-  │   ├── kworb.js
-  │   ├── premiumaccounts.js
-  │   ├── script.js
-  │   ├── svgmap.js
-  │
-  ├── WEBGRAPHSIMGS/
-  │   ├── graph1.png
-  │   ├── graph2.png
-  │
-  ├── 1.index.html
-  ├── 2.1usersartists.html
-  ├── 2.2users-listeners.html
-  ├── 2.3premiumaccounts.html
-  ├── 2users.html
-  ├── 3.1.consumptionhabitsartists.html
-  ├── 3.2.genres.html
-  ├── 3.3.datagraphs.html
-  ├── 3.consumptionhabits.html
-  ├── 4.1mostlistened.html
-  ├── 4.2.billboardlistsmapamundi.html
-  ├── 4.3.datagraphs.html
-  ├── 4.content.html
-  ├── 5.1.financials.html
-  ├── 5.2.1.revenue.html
-  ├── 5.2.2.subscribers.html
-  ├── 5.2.overview.html
-  ├── 5.company.html
-  ├── 6.benchmarks.html
-  ├── .gitattributes
-  ├── CNAME
-  ├── README.md
+      MusicDataHub/
+      │
+      ├── CSS/
+      │   ├── 100s.css
+      │   ├── 2.1usersartists.css
+      │   ├── 2.users-listeners.css
+      │   ├── 4.2.billboardlistsmapamundi.css
+      │   ├── datagraphs.css
+      │   ├── genres.css
+      │   ├── index.css
+      │   ├── kworb.css
+      │   ├── premiumaccounts.css
+      │   ├── styles.css
+      │   ├── usersartists.css
+      │
+      ├── JS/
+      │   ├── 100mapamundi.js
+      │   ├── bootstrap.bundle.min.js
+      │   ├── countryURLs.js
+      │   ├── genres.js
+      │   ├── graphs.js
+      │   ├── kworb.js
+      │   ├── premiumaccounts.js
+      │   ├── script.js
+      │   ├── svgmap.js
+      │
+      ├── WEBGRAPHSIMGS/
+      │   ├── graph1.png
+      │   ├── graph2.png
+      │
+      ├── 1.index.html
+      ├── 2.1usersartists.html
+      ├── 2.2users-listeners.html
+      ├── 2.3premiumaccounts.html
+      ├── 2users.html
+      ├── 3.1.consumptionhabitsartists.html
+      ├── 3.2.genres.html
+      ├── 3.3.datagraphs.html
+      ├── 3.consumptionhabits.html
+      ├── 4.1mostlistened.html
+      ├── 4.2.billboardlistsmapamundi.html
+      ├── 4.3.datagraphs.html
+      ├── 4.content.html
+      ├── 5.1.financials.html
+      ├── 5.2.1.revenue.html
+      ├── 5.2.2.subscribers.html
+      ├── 5.2.overview.html
+      ├── 5.company.html
+      ├── 6.benchmarks.html
+      ├── .gitattributes
+      ├── CNAME
+      ├── README.md
 
 
 Contributing
