@@ -19,8 +19,8 @@ With Music Data Hub, you're always in tune with the latest industry trends and d
 
 Project Overview
 
-Music Data Hub provides detailed statistics and insights into the music industry, focusing on Spotify user data, music streaming consumption habits, 
-the most popular songs and artists, economic data of music streaming companies, and industry benchmarks and competitors.
+    Music Data Hub provides detailed statistics and insights into the music industry, focusing on Spotify user data, music streaming consumption habits, 
+    the most popular songs and artists, economic data of music streaming companies, and industry benchmarks and competitors.
 
 
 Features
@@ -161,17 +161,17 @@ Contributing
 
 Future Work
 
-  Additional Data Sources: Integrate more music data sources for comprehensive analysis.
-  Mobile Optimization: Optimize the application for mobile devices.
-  Improve graphs and information with these frameworks: D3.js, Chart.js
+      Additional Data Sources: Integrate more music data sources for comprehensive analysis.
+      Mobile Optimization: Optimize the application for mobile devices.
+      Improve graphs and information with these frameworks: D3.js, Chart.js
 
  
 
 Acknowledgments
 
-  CS50 Course: This project was developed as part of the CS50 course.
-  Music Data APIs and sources: Thanks to the various music data API providers and sources for their data and work.
-  SVG Maps: Thanks to @StephanWagner for the svgMaps library. https://github.com/StephanWagner/svgMap
+      CS50 Course: This project was developed as part of the CS50 course.
+      Music Data APIs and sources: Thanks to the various music data API providers and sources for their data and work.
+      SVG Maps: Thanks to @StephanWagner for the svgMaps library. https://github.com/StephanWagner/svgMap
 
 
 Contact
