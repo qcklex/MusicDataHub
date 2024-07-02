@@ -4,17 +4,17 @@ Welcome to Music Data Hub, your ultimate destination for comprehensive music ind
 Navigate through our user-friendly sections with the top nav-bar to discover everything you need to know about the evolving world of music.
 With Music Data Hub, you're always in tune with the latest industry trends and data-driven insights.
 
-· Table of Contents
-· Project Overview
-· Features
-· Technologies Used
-· Installation
-· Usage
-· File Structure
-· Contributing
-· Future Work
-· Acknowledgments
-· Contact
+    · Table of Contents
+    · Project Overview
+    · Features
+    · Technologies Used
+    · Installation
+    · Usage
+    · File Structure
+    · Contributing
+    · Future Work
+    · Acknowledgments
+    · Contact
 
 
 Project Overview
@@ -50,9 +50,9 @@ Features
 
 
 Technologies Used
-
-  Frontend: HTML, CSS, JavaScript
-  Libraries and Frameworks: Bootstrap, D3.js, Chart.js
+    
+      Frontend: HTML, CSS, JavaScript
+      Libraries and Frameworks: Bootstrap, D3.js, Chart.js
 
 
 Installation
@@ -71,23 +71,23 @@ Installation
 
 Usage
 
-  Navigate to the Home Page:
-  Start exploring the music data through the main dashboard.
-  
-  Spotify Users Section: 
-  Explore statistics on premium account costs by country and data about artists and listeners.
-  
-  Music Streaming Consumption Habits Section: 
-  Analyze music consumption patterns with detailed breakdowns of artists, genres, and visual data.
-  
-  The Best of the Moment & Data Section: 
-  Stay updated with the most listened songs and artists, and explore Billboard charts and data graphs.
-  
-  Music Streaming Companies Economic Data Section: 
-  Delve into financial reports, performance overviews, and revenue and subscriber data.
-  
-  Benchmarks & Competitors Section: 
-  Access infographics and data on the largest media companies, subscriber shares, and revenue details.
+      Navigate to the Home Page:
+      Start exploring the music data through the main dashboard.
+      
+      Spotify Users Section: 
+      Explore statistics on premium account costs by country and data about artists and listeners.
+      
+      Music Streaming Consumption Habits Section: 
+      Analyze music consumption patterns with detailed breakdowns of artists, genres, and visual data.
+      
+      The Best of the Moment & Data Section: 
+      Stay updated with the most listened songs and artists, and explore Billboard charts and data graphs.
+      
+      Music Streaming Companies Economic Data Section: 
+      Delve into financial reports, performance overviews, and revenue and subscriber data.
+      
+      Benchmarks & Competitors Section: 
+      Access infographics and data on the largest media companies, subscriber shares, and revenue details.
 
 
 File Structure
@@ -173,9 +173,9 @@ Acknowledgments
 
 Contact
 
-  Author: Alex Munoz Rueda
-  Email: qcklexdev@gmail.com
-  GitHub: qcklex
+      Author: Alex Munoz Rueda
+      Email: qcklexdev@gmail.com
+      GitHub: qcklex
 
 
 © 2024 Music Data Hub. Licensed under Creative Commons Attribution 4.0 International License.
