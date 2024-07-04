@@ -15,21 +15,17 @@
     margin-left: 0.125em;
     background-color: white;
 }
-
 @media screen and (min-width: 400px) {
     .dropend:hover > .dropdown-menu {
       position: grid;
       top: 0;
       left: 100%;
-            background-color: rgb(255, 255, 255);
-
+      background-color: rgb(255, 255, 255);
     }
     .dropend .dropdown-toggle {
       margin-left: 0.5em;
-      
     }
 }
-
 @media screen and (min-width: 769px) {
     .dropend:hover > .dropdown-menu {
       position: absolute;
@@ -44,12 +40,10 @@
     }
 }
 
-
 .section {
     display: block;
    color: black;
 }
-
 
 /* Dropdown menu styling */
 .dropdown-toggle .dropdown-menu {
@@ -64,5 +58,5 @@
 }
 
 .nav-item  {
-    background-color: #3834342f;
+    background-color: dark;
 }
