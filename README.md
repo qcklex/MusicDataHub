@@ -1,4 +1,4 @@
-https://musicdatahub.info/1.index.html
+https://musicdatahub.info/index.html
 
 # Music Data Hub 
 #### Video Demo:  <https://www.youtube.com/watch?v=OGdjK9Ak2nY>
