@@ -58,7 +58,7 @@ Features
 Technologies Used
     
       Frontend: HTML, CSS, JavaScript
-      Libraries and Frameworks: Bootstraps, svgMap
+      Libraries and Frameworks: Bootstrap, svgMap
 
 
 Installation
