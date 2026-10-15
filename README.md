@@ -1,10 +1,10 @@
 https://musicdatahub.info/index.html
 
-RE-DO FOR 2026 
+REDO FOR 2026/02027
 
-Simplify navbar
-Correct UI
-Maintenance of map and more. 
+- Simplify navbar
+- Correct UI
+- Maintenance of map and more. 
 
 # Music Data Hub 
 #### Video Demo:  <https://www.youtube.com/watch?v=OGdjK9Ak2nY>
