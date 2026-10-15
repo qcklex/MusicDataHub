@@ -4,7 +4,7 @@ https://musicdatahub.info/index.html
 
 # Music Data Hub 
 
-### REDO FOR 2026/02027
+### REDO FOR 2026/2027
 
 · Simplify Navbar 
 · Correct UI
